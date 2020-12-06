@@ -1,3 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
 tasks:
   - name: Compile
     init: yarn install && yarn build && gp sync-done install
@@ -12,4 +15,4 @@ ports:
 
 vscode:
   extensions:
-    - octref.vetur@0.23.0:TEzauMObB6f3i2JqlvrOpA== 
+    - octref.vetur@0.23.0:TEzauMObB6f3i2JqlvrOpA==
